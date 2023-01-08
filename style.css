@@ -1,0 +1,156 @@
+body{
+  margin: 0;
+  padding:0;
+}
+/*nav*/
+nav{
+  background-color: black;
+  overflow: hidden;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,.2);
+}
+.nav-links {
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fbfbfb;
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-links:hover {
+	border-radius: 30px;
+  background-color: #474542;
+  transition-delay: .1s;
+}
+/*.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.sticky + .content {
+  padding-top: 60px;
+}*/
+
+/*logo*/
+#logo{
+  height: 100px;
+  width: 130px;
+  margin-top: -140px;
+  margin-left: 10%;
+}
+
+/*header*/
+.banner{
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
+.banner img{
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  padding-bottom: 10vh;
+}
+
+h1 {
+  color: #fbfbfb;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  widows: 100%;
+  background-color: rgba(0,0,0,.5);
+  padding: 30px;
+  padding-bottom: 10vh;
+  padding-right: 150px;
+  margin-top: -20vh;
+  float: right;
+}
+
+button{
+  background: none;
+  border: 2px solid #FFFF00;
+  color: #FFFF00;
+  border-radius: 5px;
+  padding: 8px;
+  width: 10vh;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+button:hover{
+  transition: .5s;
+  background-color: #FFFF00;
+  color: black;
+  cursor: pointer;
+}
+#learn{
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  margin-top: -100px;
+  widows: 100%;
+  margin-left: 400px;
+  width: 100px;
+}
+
+/*text*/
+p{
+  font-family: 'Ubuntu', sans-serif;
+}
+h2{
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  font-size: 40px;
+}
+a{
+  font-family: 'Ubuntu', sans-serif;
+  color: black;
+}
+
+.message{
+  background-color: #FFFF00;
+  margin-bottom: 100px;
+   box-shadow: 0 8px 6px 0 rgba(0,0,0,.2);
+}
+.message h2{
+  text-align: center;
+  padding-top: 40px;
+  font-size: 60px;
+}
+.message p{
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+  padding-bottom: 60px;
+  margin-top: -20px;
+}
+
+#fact{
+  font-size: 40px;
+}
+.fact-gen{
+  background-color: #679bf1;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,.2);
+  width: 50%;
+  margin-top: 20px;
+}
+
+/*footer*/
+footer {
+  background-color:black;
+  text-align:center;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  margin-top: 100px;
+  height: 5vh;
+}
+
+.footer-text{
+  color: white;
+}

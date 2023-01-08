@@ -1,0 +1,117 @@
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #fbfbfb; 
+}
+
+/*nav*/
+nav{
+  background-color: black;
+  overflow: hidden;
+   padding: 30px;
+  text-align: center;
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,.2);
+}
+.nav-links {
+  padding: 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #fbfbfb;
+  font-family: 'Ubuntu', sans-serif;
+}
+.nav-links:hover {
+	border-radius: 30px;
+  background-color: #474542;
+  transition-delay: .1s;
+}
+
+/*logo*/
+#logo{
+  height: 100px;
+  width: 130px;
+  margin-top: -140px;
+  margin-left: 10%;
+}
+
+h1{
+  padding: 40px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 80px;
+  text-align: center;
+}
+h2{
+  padding: 10px;
+  font-family: 'Bebas Neue', cursive;
+  color: black;
+  font-size: 60px;
+  margin-left: 30px;
+}
+#step p{
+  padding: 30px;
+  color: black;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+}
+#step{
+background-color: #679bf1;
+padding: 30px;
+}
+section{
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,.2);
+  margin-bottom: 40px;
+}
+.letter{
+  background-color:#FFFF00;
+  width: 70%;
+  border-radius: 20px;
+  padding-bottom: 30px;
+  box-shadow: 0 8px 6px 0 rgba(0,0,0,.2);
+}
+.letter p{
+  padding: 10px;
+}
+.letter button{
+  margin-top: 15px;
+}
+
+
+
+#donate{
+  background: none;
+  border: 2px solid #FFFF00;
+  color: #FFFF00;
+  border-radius: 5px;
+  padding: 8px;
+  width: 15vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'BenchNine', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#donate:hover{
+  transition: .5s;
+  background-color: #FFFF00;
+  color: black;
+  cursor: pointer;
+}
+
+footer {
+  background-color:black;
+  text-align:center;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+  padding: 30px;
+  margin-top: 10vh;
+}
+
+.footer-text{
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
